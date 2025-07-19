@@ -12,6 +12,7 @@ This project is a **Streamlit-based application** that uses **Large Language Mod
 - **Upload support for PDF, DOCX, and TXT files**.
 - **Embeddings with `OllamaEmbeddings`** for document chunk representations.
 - **Efficient vector search with `Chroma`** for similarity matching.
+- **LLM Integration using `LLAMA3.2` for generating responses
 - **Multi-query retriever** to enhance the accuracy of document retrieval.
 - **Streamlit UI** for an interactive question-answering experience.
 - **GPU support** using `torch` for accelerated model inference.
@@ -73,3 +74,21 @@ Ensure you have the following dependencies installed:
 ## Note:
 Make sure you download model from ollama initially
 
+## 🌱 Future Scope & Improvements
+1.**🔁 Parameter Tuning**
+
+  Add support for temperature, top_k, max_tokens, repetition_penalty to fine-tune LLM responses.
+
+  Let users select LLM models and tweak these parameters via the UI.
+
+2.**🚅 Optimization**
+
+  Currently using large chunk size becuase of low end resource
+
+3.**⏱️ Time Constraints**
+
+  Introduce chunk size auto-adjustment based on system memory or user-defined time budget.
+
+4.**🧠 Advanced Models**
+
+  Add OpenAI or HuggingFace options alongside Ollama for cloud/local hybrid setups.
