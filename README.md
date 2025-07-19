@@ -15,6 +15,10 @@ This project is a **Streamlit-based application** that uses **Large Language Mod
 - **Multi-query retriever** to enhance the accuracy of document retrieval.
 - **Streamlit UI** for an interactive question-answering experience.
 - **GPU support** using `torch` for accelerated model inference.
+- **Uses GPT** for:
+  - Streamlit function generation
+  - Debugging and optimization
+  - Code snippet generation during development
 
 ## Requirements
 Ensure you have the following dependencies installed:
@@ -66,5 +70,6 @@ Ensure you have the following dependencies installed:
 3. **View History**:
    - All previous questions and answers are saved and displayed in the **history** section.
 
-
+## Note:
+Make sure you download model from ollama initially
 
